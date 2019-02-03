@@ -4,7 +4,7 @@
     "type": "chrome",
     "request": "launch",
     "name": "Debug in Chrome",
-    "url": "${workspaceFolder}/index.html",
+    "url": "${workspaceFolder}/basic_css_demo1.html",
     }
     ]
     }
