@@ -2,7 +2,8 @@
 <html lang="en">
 	<head>
 		<title>Photo Friends</title>
-		<meta charset="utf-8">
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/account_creation.css">
 	</head>
 	<body>
         <!-- Title line -->
@@ -16,14 +17,14 @@
 <!-- Account Creation Form -->
         <div id="accountCreationForm">
             <form action="/action_page.php">
-                First name: <input type="text" name="fname"><br>
-                Last name: <input type="text" name="lname"><br>
-                Email <input type="text" name="lname"><br>
+                <input type="text" class="info" name="fname" placeholder="First Name"><br>
+                <input type="text" class="info" name="lname" placeholder="Last Name"><br>
+                <input type="text" class="info" name="lname" placeholder="Email"><br>
                 <p>Please select your favorite category.</p>
-                Space Photos:<input type = "radio" name="preference"/><br>
-                Sports Photos:<input type = "radio" name="preference"/><br>
-                Wildlife Photos:<input type = "radio" name="preference"/><br>
-                Plant Photos:<input type = "radio" name="preference"/><br>
+                <input type = "radio" class="rdo" name="preference" value="Space Photos">Space Photos<br>
+                <input type = "radio" class="rdo" name="preference" value="Sports Photos">Sports Photos<br>
+                <input type = "radio" class="rdo" name="preference" value="Wildlife Photos">Wildlife Photos<br>
+                <input type = "radio" class="rdo" name="preference" value="Plant Photos">Plant Photos<br>
                 <input type="submit" value="Submit">
                 </form>
         </div>
